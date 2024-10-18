@@ -4,7 +4,7 @@ https://gist.github.com/Klerith/e2c1fe2bcf5bfcd0a12fff653e725284
 
 Discord : https://discord.gg/pBjEVYTC7t
 
-Aula 9 
+Day 1
 
 npm create vite
 ✔ Project name: … react-foundation
@@ -15,3 +15,6 @@ extension : https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-re
 
 snippet 
 rafc : reactArrowFunctionComponent
+
+Stopped at Section 2 - Item 15 finished
+Restart at https://catho.udemy.com/course/react-native-fh/learn/lecture/40315502#notes
