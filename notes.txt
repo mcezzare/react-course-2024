@@ -1,0 +1,17 @@
+content installs 
+
+https://gist.github.com/Klerith/e2c1fe2bcf5bfcd0a12fff653e725284
+
+Discord : https://discord.gg/pBjEVYTC7t
+
+Aula 9 
+
+npm create vite
+✔ Project name: … react-foundation
+✔ Select a framework: › React
+✔ Select a variant: › TypeScript
+
+extension : https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets
+
+snippet 
+rafc : reactArrowFunctionComponent
