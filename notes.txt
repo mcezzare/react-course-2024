@@ -18,3 +18,14 @@ rafc : reactArrowFunctionComponent
 
 Stopped at Section 2 - Item 15 finished
 Restart at https://catho.udemy.com/course/react-native-fh/learn/lecture/40315502#notes
+
+
+Day 2 : 
+zustand state 
+Mock API 
+https://reqres.in/
+OBS : modo strito do react dispara a requisição 2 vezes
+main.tsx
+  <StrictMode>
+    <App />
+  </StrictMode>,
