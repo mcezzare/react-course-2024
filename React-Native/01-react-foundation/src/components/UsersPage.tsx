@@ -1,10 +1,14 @@
 import axios from 'axios';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import type { ReqResUsersListResponse, User } from '../interfaces';
 
-const loadUsers = async (): Promise<User[]> => {
+const loadUsers = async (pageNumber: number = 1): Promise<User[]> => {
   try {
-    const { data } = await axios.get<ReqResUsersListResponse>( 'https://reqres.in/api/users?page=1' );
+    const { data } = await axios.get<ReqResUsersListResponse>( 'https://reqres.in/api/users', {
+      params: {
+        page: pageNumber
+      }
+    } );
     return data.data;
   }
   catch ( error ) {
@@ -14,23 +18,34 @@ const loadUsers = async (): Promise<User[]> => {
 };
 
 export const UsersPage = () => {
-  const [ users, setusers ] = useState<User[]>( [] );
-
+  const [ users, setUsers ] = useState<User[]>( [] );
+  const currentPageRef = useRef(1);
   useEffect( () => {
-    // Simple fetch
-    // fetch('https://reqres.in/api/users?page=1')
-    // .then (resp => resp.json())
-    // .then( data => console.log(data) )
-
     // quick and dirty
-    // loadUsers().then( setusers );   
-    loadUsers().then( users => setusers( users ) );
-
+    // loadUsers().then( setUsers );   
+    loadUsers(currentPageRef.current)
+    .then( users => setUsers( users ) );
 
   }, [] );
 
-  return (
+  const nextPage = async() => {
+    currentPageRef.current++;
+    const users = await loadUsers(currentPageRef.current)
+    if (users.length > 0 ){
+      setUsers(users);
+    } else {
+      currentPageRef.current--;
+    }
+  }
 
+  const previousPage = async() => {
+    if (currentPageRef.current < 1) return;
+    currentPageRef.current--;
+    const users = await loadUsers(currentPageRef.current);
+    setUsers(users);
+  }
+
+  return (
     <>
       <h3>Users Page</h3>
       <table>
@@ -45,12 +60,19 @@ export const UsersPage = () => {
           {
             users.map( user => (
               <UserRow key={ user.id } user={ user } />
-            ))
+            ) )
           }
         </tbody>
 
-        <tfoot></tfoot>
+        <tfoot>
+          {/* preparar uma barra de status de paginação Pagina xPosition de xTotal  */}
+        </tfoot>
       </table>
+      <div>
+        <button onClick={() => previousPage() }>Prev</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <button onClick={() => nextPage() }>Next</button>
+      </div>
     </>
 
   );
