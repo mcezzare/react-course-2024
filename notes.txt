@@ -29,3 +29,9 @@ main.tsx
   <StrictMode>
     <App />
   </StrictMode>,
+
+
+Extension from quicktype
+quicktype.quicktype
+
+CMD+SHIFT+P paste json as code with json in pasteBoard
