@@ -6,7 +6,9 @@
 //   ObjectLiterals
 // } from "./typescript/index.ts"
 
-import UsersPage from './components/UsersPage';
+import FormsPage from './components/FormsPage';
+
+// import UsersPage from './components/UsersPage';
 
 // import LoginPage from "./components/LoginPage.tsx"
 
@@ -26,7 +28,8 @@ function App() {
       {/* <hr /> */}
       {/* <CounterWithHook /> */}
       {/* <LoginPage /> */}
-      <UsersPage />
+      {/* <UsersPage /> */}
+      <FormsPage />
     </main>
 
   )
