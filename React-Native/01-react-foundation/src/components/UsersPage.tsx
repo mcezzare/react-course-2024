@@ -1,31 +1,36 @@
 import axios from 'axios';
-import { useEffect } from 'react';
-import { ReqResUsersListResponse } from '../interfaces';
+import { useEffect, useState } from 'react';
+import type { ReqResUsersListResponse, User } from '../interfaces';
 
-const loadUsers = async () => {
+const loadUsers = async (): Promise<User[]> => {
   try {
-    const { data } = await axios.get<ReqResUsersListResponse>('https://reqres.in/api/users?page=1')
-    return data.data
-   }
-   catch (error) {
-    console.log(error);
+    const { data } = await axios.get<ReqResUsersListResponse>( 'https://reqres.in/api/users?page=1' );
+    return data.data;
+  }
+  catch ( error ) {
+    console.log( error );
     return [];
-   }
-}
+  }
+};
 
 export const UsersPage = () => {
-  useEffect(()=> {
+  const [ users, setusers ] = useState<User[]>( [] );
+
+  useEffect( () => {
     // Simple fetch
     // fetch('https://reqres.in/api/users?page=1')
     // .then (resp => resp.json())
     // .then( data => console.log(data) )
-    loadUsers().then( users => console.log(users))
 
-   
-  },[])
+    // quick and dirty
+    // loadUsers().then( setusers );   
+    loadUsers().then( users => setusers( users ) );
+
+
+  }, [] );
 
   return (
-    
+
     <>
       <h3>Users Page</h3>
       <table>
@@ -37,11 +42,18 @@ export const UsersPage = () => {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>avatar</td>
-            <td>nome</td>
-            <td>email</td>
-          </tr>
+          {
+            users.map( user => (
+              <tr key={user.id}>
+              <td><img style={{ width:'50px'}} src={user.avatar} alt="user avatar"/></td>
+              <td>{user.first_name} {user.last_name}</td>
+              <td>{user.email}</td>
+            </tr>
+
+            )
+
+            )
+          }
         </tbody>
 
         <tfoot></tfoot>
@@ -50,5 +62,10 @@ export const UsersPage = () => {
 
   );
 };
+
+
+
+
+
 
 export default UsersPage;

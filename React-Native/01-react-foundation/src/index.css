@@ -18,6 +18,7 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
@@ -46,9 +47,11 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -59,9 +62,11 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
+
   a:hover {
     color: #747bff;
   }
+
   button {
     background-color: #f9f9f9;
   }
@@ -80,7 +85,31 @@ input {
   padding: 5px;
 }
 
-hr { 
+hr {
   width: 80vw;
   align-self: center;
+}
+
+/* table {
+  table-layout : fixed;
+} */
+
+table {
+  table-layout: fixed;
+  width: 80%;
+}
+
+tbody>tr>*:nth-last-child(2)~* {
+  width: 50%;
+  /* display: grid; */
+}
+
+tbody>tr>*:nth-last-child(3)~* {
+  width: 33.3%;
+  /* display: flex; */
+}
+
+tbody>tr>*:nth-last-child(4)~* {
+  width: 25%;
+  /* display: flex; */
 }
