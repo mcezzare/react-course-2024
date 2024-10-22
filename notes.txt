@@ -77,5 +77,6 @@ npx @react-native-community/cli init MyFirstApp
 treta build ios , run npm pod install 0_0 ?
 App 02 is here : https://github.com/mcezzare/react-course-2024-02
 
-
+docs components
+https://reactnative.dev/docs/components-and-apis
 
