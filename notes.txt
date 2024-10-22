@@ -80,3 +80,5 @@ App 02 is here : https://github.com/mcezzare/react-course-2024-02
 docs components
 https://reactnative.dev/docs/components-and-apis
 
+start gestures stopped class 49
+------------------------------------------------------------------------------------------------------------------------
