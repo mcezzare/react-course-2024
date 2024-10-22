@@ -3,7 +3,7 @@ import UserRow from './UserRow';
 
 
 export const UsersPage = () => {
-  const {users , nextPage, previousPage} = useUsers()
+  const {users , nextPage, previousPage, isDisabledNext, isDisabledPrev} = useUsers()
 
   return (
     <>
@@ -29,9 +29,9 @@ export const UsersPage = () => {
         </tfoot>
       </table>
       <div>
-        <button onClick={() => previousPage() }>Prev</button>
+        <button onClick={() => previousPage() } disabled={isDisabledPrev}>Prev</button>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <button onClick={() => nextPage() }>Next</button>
+        <button onClick={() => nextPage() } disabled={isDisabledNext}>Next</button>
       </div>
     </>
 
