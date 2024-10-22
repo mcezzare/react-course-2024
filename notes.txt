@@ -69,4 +69,13 @@ npx reac-native doctor
 Android e iOS rodando \o/
 Fim da sessão 3
 
+Inicio Sessao 4 
+
+ npx react-native init AwesomeTSProject
+- Switch to npx @react-native-community/cli init for the identical behavior.
+npx @react-native-community/cli init MyFirstApp
+treta build ios , run npm pod install 0_0 ?
+App 02 is here : https://github.com/mcezzare/react-course-2024-02
+
+
 
