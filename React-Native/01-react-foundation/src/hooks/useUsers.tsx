@@ -60,12 +60,14 @@ export const useUsers = ( () => {
   const isDisabledPrev = currentPageRef.current === 1;
   const isDisabledNext = currentPageRef.current === totalPages;
 
+  
   return {
     // Properties
     users,
     isDisabledPrev,
     isDisabledNext,
-
+    currentPageRef,
+    totalPages,
     // Methods
     nextPage,
     previousPage

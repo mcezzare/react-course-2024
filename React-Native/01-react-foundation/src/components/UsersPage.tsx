@@ -3,7 +3,7 @@ import UserRow from './UserRow';
 
 
 export const UsersPage = () => {
-  const {users , nextPage, previousPage, isDisabledNext, isDisabledPrev} = useUsers()
+  const { users, nextPage, previousPage, isDisabledNext, isDisabledPrev, currentPageRef, totalPages } = useUsers();
 
   return (
     <>
@@ -25,13 +25,17 @@ export const UsersPage = () => {
         </tbody>
 
         <tfoot>
-          {/* preparar uma barra de status de paginação Pagina xPosition de xTotal  */}
+          <tr>
+            <td colSpan={ 3 }>
+              Page {currentPageRef.current} of {totalPages} 
+            </td>
+          </tr>
         </tfoot>
       </table>
       <div>
-        <button onClick={() => previousPage() } disabled={isDisabledPrev}>Prev</button>
+        <button onClick={ () => previousPage() } disabled={ isDisabledPrev }>Prev</button>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <button onClick={() => nextPage() } disabled={isDisabledNext}>Next</button>
+        <button onClick={ () => nextPage() } disabled={ isDisabledNext }>Next</button>
       </div>
     </>
 
