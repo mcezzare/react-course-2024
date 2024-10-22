@@ -45,4 +45,28 @@ codigo fonte da seção 2
 https://github.com/Klerith/RN-reforzamiento-react
 Finished Session 2
 ------------------------------------------------------------------------------------------------------------------------
+Day 3 
+Sessão 3 
+Verificar o lance do expo permitir que você execute e teste o aplicativo no IOS mesmo se você não tiver um mac :eyes
+
+Setups
+https://reactnative.dev/docs/set-up-your-environment?platform=android
+brew install watchman
+brew install --cask zulu@17
+brew info --cask zulu@17
+JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
+
+https://reactnative.dev/docs/getting-started-without-a-framework
+npm uninstall -g react-native-cli @react-native-community/cli
+
+
+Assim instala sem probelmas 
+rbenv local 3.3.0
+npx @react-native-community/cli@latest init AwesomeProject
+Welcome to React Native 0.75.4!
+
+npx reac-native doctor
+Android e iOS rodando \o/
+Fim da sessão 3
+
 
