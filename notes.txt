@@ -107,4 +107,15 @@ watchman watch-del '/Users/mariochiodi/Documents/courses/udemy/react/trilha/Reac
 
 
 
+Icons 
+https://callstack.github.io/react-native-paper/docs/guides/getting-started
+npm install react-native-vector-icons
+https://github.com/oblador/react-native-vector-icons#installation
+
+To use icons 
+npm i --save-dev @types/react-native-vector-icons
+Android .. add fonts copy to android/app/build.gradle , restart npm session
+
+after copy fonts to ios project, copy fonts and alter .plist run npx pod-install and restart npm session
+
 
