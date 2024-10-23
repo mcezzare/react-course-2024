@@ -118,4 +118,4 @@ Android .. add fonts copy to android/app/build.gradle , restart npm session
 
 after copy fonts to ios project, copy fonts and alter .plist run npx pod-install and restart npm session
 
-
+Fim da sessão 4
