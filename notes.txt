@@ -82,3 +82,29 @@ https://reactnative.dev/docs/components-and-apis
 
 start gestures stopped class 49
 ------------------------------------------------------------------------------------------------------------------------
+Day 4 
+
+components and stylized components
+
+https://reactnative.dev/docs/components-and-apis :( 
+
+OLD : https://docs.nativebase.io/?utm_source=HomePage&utm_medium=Hero_Fold&utm_campaign=NativeBase_3
+
+NEW : https://gluestack.io/ui/docs/home/getting-started/installation?utm_source=nativebase&utm_medium=docs&utm_campaign=docs%20homepage
+ 
+Recomendado : https://reactnativepaper.com/
+
+carrousel : https://github.com/meliorence/react-native-snap-carousel
+
+
+npm install react-native-paper
+npm install react-native-safe-area-context
+npx pod-install
+
+Stop when crash 
+
+watchman watch-del '/Users/mariochiodi/Documents/courses/udemy/react/trilha/React-Native/02-MyFirstApp' ; watchman watch-project '/Users/mariochiodi/Documents/courses/udemy/react/trilha/React-Native/02-MyFirstApp'
+
+
+
+
