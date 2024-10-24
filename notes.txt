@@ -130,3 +130,7 @@ margin externo
 
 https://reactnative.dev/docs/dimensions
 
+
+Relative and absolute position
+
+https://reactnative.dev/docs/flexbox (test all online examples)
