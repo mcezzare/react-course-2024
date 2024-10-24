@@ -119,3 +119,14 @@ Android .. add fonts copy to android/app/build.gradle , restart npm session
 after copy fonts to ios project, copy fonts and alter .plist run npx pod-install and restart npm session
 
 Fim da sessão 4
+------------------------------------------------------------------------------------------------------------------------
+Day 5
+
+Box object model 
+
+-> Tamanhos .. quem manda é o container pai
+padding interno 
+margin externo
+
+https://reactnative.dev/docs/dimensions
+
