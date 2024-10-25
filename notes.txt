@@ -134,3 +134,20 @@ https://reactnative.dev/docs/dimensions
 Relative and absolute position
 
 https://reactnative.dev/docs/flexbox (test all online examples)
+
+------------------------------------------------------------------------------------------------------------------------
+Day 6
+
+Fim da sessão 5
+Ainda fiz um esquema de navegação
+
+npm install @react-navigation/native
+npm install @react-navigation/stack
+npm install react-native-screens react-native-safe-area-context
+npm install @react-navigation/native @types/react
+npm install @react-navigation/stack @types/react-native
+npm install @react-native-masked-view/masked-view
+npx pod-install ios
+
+npm install react-native-gesture-handler
+
