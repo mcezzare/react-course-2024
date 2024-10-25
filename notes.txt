@@ -151,3 +151,12 @@ npx pod-install ios
 
 npm install react-native-gesture-handler
 
+Inicio Sessão 6 - Calculadora
+
+npx @react-native-community/cli init calculator
+https://github.com/mcezzare/mcezzare-react-course-2024-03
+- parei aula 87 calculadora UI.
+------------------------------------------------------------------------------------------------------------------------
+
+
+
