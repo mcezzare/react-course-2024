@@ -165,6 +165,13 @@ watchman watch-del `pwd` ; watchman watch-project `pwd`
 End of session 6
 
 
+Inicio sessao 7
+Stack & Drawer navigation
+https://github.com/mcezzare/react-course-2024-04
+
+
+
+
 
 
 

@@ -7,3 +7,5 @@ App01 -> [React Foundation](https://github.com/mcezzare/react-course-2024)
 App02 -> [Exercises](https://github.com/mcezzare/react-course-2024-02)
 
 App03 -> [iOS Calculator](https://github.com/mcezzare/mcezzare-react-course-2024-03)
+
+App04 -> [Navigation App](https://github.com/mcezzare/react-course-2024-04)
