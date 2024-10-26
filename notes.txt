@@ -157,6 +157,15 @@ npx @react-native-community/cli init calculator
 https://github.com/mcezzare/mcezzare-react-course-2024-03
 - parei aula 87 calculadora UI.
 ------------------------------------------------------------------------------------------------------------------------
+Day 7 
+
+npm start error too many open files 
+
+watchman watch-del `pwd` ; watchman watch-project `pwd`
+End of session 6
+
+
+
 
 
 
