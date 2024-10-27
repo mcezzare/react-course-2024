@@ -169,10 +169,63 @@ Inicio sessao 7
 Stack & Drawer navigation
 https://github.com/mcezzare/react-course-2024-04
 
+Tipos de navegação : 
+Stack navigation
+Drawer Navigation 
+BottomTab Navigation
+MaterialTop Navigation
 
 
+Stack navigation
+navigation.pop / popToTop / goBack
+
+parei aula 101
+------------------------------------------------------------------------------------------------------------------------
+Day 8
+
+https://reactnavigation.org/docs/stack-navigator/
+https://reactnavigation.org/docs/getting-started/
+
+npm install @react-navigation/native
+npm install react-native-screens react-native-safe-area-context
+npx pod-install ios
+
+npm install @react-navigation/stack
+npm install react-native-gesture-handler
+npm install @react-native-masked-view/masked-view
+npx pod-install ios
+
+NOte : <Stack.Navigator> manda props para cada página que abre
+
+https://reactnative.dev/docs/flatlist
 
 
+*Assistir de novo pra reforçar como que manda objetos para frente sem usar props*
+https://catho.udemy.com/course/react-native-fh/learn/lecture/42539034#notes
 
 
+https://reactnavigation.org/docs/drawer-navigator/
 
+https://reactnavigation.org/docs/drawer-based-navigation/
+npm install @react-navigation/drawer
+npx pod-install
+
+Crash :( 
+npx react-native start --resetCache
+
+Fix da treta : 
+ (NOBRIDGE) ERROR  ReanimatedError: [Reanimated] Native part of Reanimated doesn't seem to be initialized.
+See https://docs.swmansion.com/react-native-reanimated/docs/guides/troubleshooting#native-part-of-reanimated-doesnt-seem-to-be-initialized for more details. [Component Stack]
+ (NOBRIDGE) ERROR  ReanimatedError: [Reanimated] Native part of Reanimated doesn't seem to be initialized.
+See https://docs.swmansion.com/react-native-reanimated/docs/guides/troubleshooting#native-part-of-reanimated-doesnt-seem-to-be-initialized for more details. [Component Stack]
+ (NOBRIDGE) ERROR  Warning: TypeError: Cannot read property 'isConfigured' of undefined
+
+https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/getting-started/#step-2-add-reanimateds-babel-plugin
+
+npx pod-install de novo apos mudar o babel.config.js
+
+Fim sessão 7 
+Parei aula 114
+Repo do professor  : https://github.com/DevTalles-corp/rn-navigation-app/tree/fin-seccion-7
+
+------------------------------------------------------------------------------------------------------------------------
