@@ -229,3 +229,26 @@ Parei aula 114
 Repo do professor  : https://github.com/DevTalles-corp/rn-navigation-app/tree/fin-seccion-7
 
 ------------------------------------------------------------------------------------------------------------------------
+Day 9
+Tabs Navigation 
+
+https://reactnavigation.org/docs/bottom-tab-navigator/
+npm install @react-navigation/bottom-tabs
+
+https://reactnavigation.org/docs/material-top-tab-navigator/
+npm install @react-navigation/material-top-tabs react-native-tab-view
+npm install react-native-pager-view
+npx pod-install
+
+Adicionando icones 
+https://github.com/oblador/react-native-vector-icons
+Aula 124 
+https://ionic.io/ionicons
+
+npm install --save react-native-vector-icons
+remeber change android(https://github.com/oblador/react-native-vector-icons#android-setup) 
+and ios(https://github.com/oblador/react-native-vector-icons#ios-setup) projects to copy fonts [copy ttf files]
+
+npx pod-install
+
+
