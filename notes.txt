@@ -254,3 +254,20 @@ npx pod-install
 Teacher's Code. https://github.com/DevTalles-corp/rn-navigation-app/tree/fin-seccion-8
 Fim da sessão 8
 
+
+
+Inicio Sessao 9 
+Gerenciador de estado
+centralizador de mudanças e notificações das instancias que usam
+
+https://fernando-herrera.com/course/zustand/
+https://zustand.docs.pmnd.rs/getting-started/introduction
+
+Projeto https://github.com/mcezzare/react-course-2024-05
+apps preparados 
+https://reactnavigation.org/docs/bottom-tab-navigator/
+npm install @react-navigation/bottom-tabs
+npm install react-native-screens react-native-safe-area-context
+
+
+npx react-native start --resetCache
