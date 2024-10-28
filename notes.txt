@@ -275,3 +275,22 @@ npx react-native start --resetCache
 Fim Sessão 9
 ------------------------------------------------------------------------------------------------------------------------
 Day 10
+Inicio sessao 10 
+https://gist.github.com/Klerith/89d5288dec7ff254913453d26a63e981
+https://reactnavigation.org/docs/stack-navigator/
+https://www.themoviedb.org/?language=es
+
+
+
+npx @react-native-community/cli@latest init MoviesApp
+https://reactnavigation.org/
+
+npm install @react-navigation/native
+npm install react-native-screens react-native-safe-area-context
+npx pod-install ios
+https://reactnavigation.org/docs/stack-navigator
+npm install @react-navigation/stack
+npm install react-native-gesture-handler
+npm install @react-native-masked-view/masked-view
+npx react-native start --resetCache
+tag 0.1.0 https://github.com/mcezzare/react-course-2024-06/releases/tag/0.1.0
