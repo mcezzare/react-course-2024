@@ -294,3 +294,8 @@ npm install react-native-gesture-handler
 npm install @react-native-masked-view/masked-view
 npx react-native start --resetCache
 tag 0.1.0 https://github.com/mcezzare/react-course-2024-06/releases/tag/0.1.0
+
+create api key for tmdb 
+https://developer.themoviedb.org/docs/getting-started
+npm install axios
+

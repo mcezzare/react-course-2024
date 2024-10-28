@@ -11,3 +11,5 @@ App03 -> [iOS Calculator](https://github.com/mcezzare/mcezzare-react-course-2024
 App04 -> [Navigation App](https://github.com/mcezzare/react-course-2024-04)
 
 App05 -> [Context App](https://github.com/mcezzare/react-course-2024-05)
+
+App06 -> [MoviesApp](https://github.com/mcezzare/react-course-2024-06)
