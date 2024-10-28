@@ -271,3 +271,7 @@ npm install react-native-screens react-native-safe-area-context
 
 
 npx react-native start --resetCache
+
+Fim Sessão 9
+------------------------------------------------------------------------------------------------------------------------
+Day 10
