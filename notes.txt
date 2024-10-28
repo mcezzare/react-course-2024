@@ -251,4 +251,6 @@ and ios(https://github.com/oblador/react-native-vector-icons#ios-setup) projects
 
 npx pod-install
 
+Teacher's Code. https://github.com/DevTalles-corp/rn-navigation-app/tree/fin-seccion-8
+Fim da sessão 8
 
