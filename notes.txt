@@ -282,7 +282,7 @@ https://www.themoviedb.org/?language=es
 
 
 
-npx @react-native-community/cli@latest init MoviesApp
+npx @react-native-community/cli@latest init moviesApp
 https://reactnavigation.org/
 
 npm install @react-navigation/native
@@ -299,3 +299,8 @@ create api key for tmdb
 https://developer.themoviedb.org/docs/getting-started
 npm install axios
 
+olhar depois tanStack query
+
+Fim da sessão 10  
+------------------------------------------------------------------------------------------------------------------------
+Day 11
