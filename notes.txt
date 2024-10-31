@@ -301,8 +301,37 @@ npm install axios
 
 olhar depois tanStack query
 
+Fonte professor : https://github.com/DevTalles-corp/RN-Movies/tree/fin-seccion-10
 Fim da sessão 10  
 ------------------------------------------------------------------------------------------------------------------------
 Day 11
 
 Olhar : https://dev.to/alvessteve/the-complete-guide-to-env-variable-in-react-native-5999
+Inicio sessão 11
+
+Problemas par subir no ios 
+LOG: 
+ (NOBRIDGE) LOG  VirtualizedList: You have a large list that is slow to update - make sure your renderItem function renders components that follow React performance best practices like PureComponent, shouldComponentUpdate, etc. {"contentLength": 3200, "dt": 2803, "prevDt": 583}
+
+
+ios : 
+rm -rf node_modules && npm cache clean --force && npm install
+
+rm -rf /tmp/metro-* && npx react-native start --reset-cache
+
+cd ios
+rm -rf Pods Podfile.lock
+pod install
+cd ..
+
+Pod installation complete! There are 69 dependencies from the Podfile and 68 total pods installed.
+
+[!] [Codegen] warn: using experimental new codegen integration
+
+[!] hermes-engine has added 1 script phase. 
+Please inspect before executing a build.
+See `https://guides.cocoapods.org/syntax/podspec.html#script_phases` for more information.
+
+parei aula 166
+------------------------------------------------------------------------------------------------------------------------
+Day 12
