@@ -335,3 +335,62 @@ See `https://guides.cocoapods.org/syntax/podspec.html#script_phases` for more in
 parei aula 166
 ------------------------------------------------------------------------------------------------------------------------
 Day 12
+sessão 11 166
+Teacher Example: https://github.com/DevTalles-corp/RN-Movies/tree/fin-seccion-11
+novo caso de uso 
+- src/core/use-cases/movie/get-cast.use.case.ts
+nova interface de response da api
+- src/infrastructure/interfaces/movies-db.responses.ts 
+nova interface interna 
+src/core/entities/cast.entities.ts
+cria o mapper pra traduzir o reponse pro app interno
+- src/infrastructure/mappers/cast.mapper.ts
+chama o mapper formatando o resultado pro interno
+- src/core/use-cases/movie/get-cast.use.case.ts
+exporta o caso de uso no indice
+- src/core/use-cases/index.ts
+adiciona o useState do caso de uso novo  e poe o objeto no state
+- src/presentation/hooks/useMovie.tsx
+
+end aula 167 
+adiciona flatlist para agrupar os dados na tela de detalhes
+- src/presentation/components/movie/MovieDetails.tsx
+cria componenente para exibiçao no flatlist
+- src/presentation/components/cast/CastActor.tsx
+
+npm install -D react-native-dotenv
+configure plugin babel 
+create module , 
+
+
+
+fim : teacher : https://github.com/DevTalles-corp/RN-Movies/tree/fin-seccion-11
+fim sessão 11 
+________________________________________________________________________
+Inicio sessão 12
+Final : https://github.com/DevTalles-corp/RN-Components/tree/fin-seccion-12
+
+npx @react-native-community/cli@latest init componentsApp
+Welcome to React Native 0.76.1! 
+
+
+nao funciona 
+ // "start:ios": "npm run ios -- --simulator='iPhone SE (3rd generation)'"
+
+mkdir -p src/config/theme
+cd src/
+mkdir -p presentation/assets
+mkdir presentation/components
+mkdir presentation/components/ui
+mkdir presentation/navigator
+mkdir presentation/hooks
+mkdir presentation/screens
+mkdir presentation/screens/home
+touch presentation/screens/home/HomeScreen.tsx
+mkdir presentation/screens/alerts
+mkdir presentation/screens/animations
+mkdir presentation/screens/inputs
+mkdir presentation/screens/switches
+mkdir presentation/screens/theme
+mkdir presentation/screens/ui
+
