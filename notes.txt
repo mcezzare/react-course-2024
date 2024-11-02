@@ -394,3 +394,38 @@ mkdir presentation/screens/switches
 mkdir presentation/screens/theme
 mkdir presentation/screens/ui
 
+
+https://reactnavigation.org/docs/getting-started
+npm install @react-navigation/native
+npm install react-native-screens react-native-safe-area-context
+- fix android/app/src/main/java/com/componentsapp/MainActivity.kt
+
+
+https://reactnavigation.org/docs/stack-navigator/
+
+
+npm install @react-navigation/stack
+npm install react-native-gesture-handler
+npm install @react-native-masked-view/masked-view
+npx pod-install ios
+
+
+npm install --save react-native-vector-icons
+npm i --save-dev @types/react-native-vector-icons
+npx pod-install
+
+edited to use fonts 
+- android/app/build.gradle
+- ios/componentsApp/Info.plist
+
+-- after reset emulator , don't have to copy fonts , reset emulator and it works
+
+open ios Project workspace and copy fonts to a new Fonts folder from 
+07-componentsApp/node_modules/react-native-vector-icons/Fonts 
+
+
+npx @react-native-community/cli@15.0.0 init componentApp --version 0.76
+
+
+------------------------------------------------------------------------------------------------------------------------
+Day 12

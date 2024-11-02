@@ -13,3 +13,5 @@ App04 -> [Navigation App](https://github.com/mcezzare/react-course-2024-04)
 App05 -> [Context App](https://github.com/mcezzare/react-course-2024-05)
 
 App06 -> [MoviesApp](https://github.com/mcezzare/react-course-2024-06)
+
+App07 -> [ComponentsApp](https://github.com/mcezzare/mcezzare-react-course-2024-07)
