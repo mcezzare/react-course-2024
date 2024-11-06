@@ -427,5 +427,53 @@ open ios Project workspace and copy fonts to a new Fonts folder from
 npx @react-native-community/cli@15.0.0 init componentApp --version 0.76
 
 
+cap 184 
+https://linktr.ee/malpicado
+
+cap 185
+https://reactnative.dev/docs/animatedvaluexy
+
+cap 186 
+https://reactnative.dev/docs/switch
+
+
 ------------------------------------------------------------------------------------------------------------------------
 Day 12
+
+basico :
+cria componenente
+cria as props
+
+https://reactnative.dev/docs/animated
+
+--------------------------------------------------------------------------------------
+
+Day 13
+
+start session 182 
+
+https://reactnative.dev/docs/animatedvaluexy
+
+https://reactnative.dev/docs/switch
+
+
+0_0
+https://reactnative.dev/docs/alert
+treta no android , então 
+https://reactnative.dev/docs/alertios.html#prompt
+https://www.npmjs.com/package/react-native-prompt-android
+
+npm i react-native-prompt-android
+
+
+start 192 
+
+https://reactnative.dev/docs/textinput
+
+--------------------------------------------------------------------------------------
+Day 14
+
+https://reactnative.dev/docs/keyboardavoidingview
+lembrar de deixar as views de 20 height antes e depois do ultimo elemento 
+
+
