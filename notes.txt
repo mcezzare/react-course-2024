@@ -476,4 +476,14 @@ Day 14
 https://reactnative.dev/docs/keyboardavoidingview
 lembrar de deixar as views de 20 height antes e depois do ultimo elemento 
 
+pull to refresh : 
+https://reactnative.dev/docs/scrollview
+https://reactnative.dev/docs/refreshcontrol
+
+
+https://reactnative.dev/docs/sectionlist
+https://reactnative.dev/docs/modal
+
+Flat List ... inifinte loader 
+https://picsum.photos/
 
