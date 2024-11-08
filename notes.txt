@@ -517,4 +517,8 @@ end 211
 Day 16 
 
 https://reactnavigation.org/docs/themes/
+After fix color theme 
+https://reactnative.dev/docs/appstate
+
+End session 13 
 
