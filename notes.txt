@@ -487,3 +487,29 @@ https://reactnative.dev/docs/modal
 Flat List ... inifinte loader 
 https://picsum.photos/
 
+
+--------------------------------------------------------------------------------------
+
+Day 15 
+
+end session 12
+
+start session 13 
+
+Fim teacher : https://github.com/DevTalles-corp/RN-Components/tree/fin-seccion-13
+
+aula 206
+https://att-c.udemycdn.com/2024-01-25_14-12-20-d56a8aa2a78e05bcb88a03fe949fb8b1/original.zip?response-content-disposition=attachment%3B+filename%3Dassets.zip&Expires=1731039003&Signature=y~FhiTi7~RVnGsxNrex74079qaUsjVaimm0DHWWzHJqGCwoYbTGv51Px8qHzKFnuG3CY6uwBAfRcykmB5NIuv1qY8inCp4ystDuXfrz3d3sBE6LKPfJq5ASUxiv0ZgedZlnYL9JZ4-HFeqgSin8AJzmoDolSenOJeNsZkrGDMm4R8D~73EZB5SZEOH5LNalMVCzB0sfIUYQJ~xMyzli52P0zXrdAwv-RzCM~wjPFGLbW7pOTUdPNSPFOgM7Bzub-mxevgHSZeAz6UMDRWaRUkKBbkIG7CcR5O18bqNUm2Fzui~ZlofvdJp9~Ke4n~0TFjpkIm~FqJZY0ttrQ8vOlcQ__&Key-Pair-Id=K3MG148K9RIRF4
+
+
+https://undraw.co/
+
+https://gist.github.com/Klerith/5eb38db46254dac72f0a7bcf360f17d1
+
+end 207 - slides ( tipo o onboarding )
+
+class 208
+https://reactnavigation.org/docs/themes/
+
+end 211 
+
