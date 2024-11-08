@@ -15,3 +15,5 @@ App05 -> [Context App](https://github.com/mcezzare/react-course-2024-05)
 App06 -> [MoviesApp](https://github.com/mcezzare/react-course-2024-06)
 
 App07 -> [ComponentsApp](https://github.com/mcezzare/mcezzare-react-course-2024-07)
+
+App08 -> [Pokedex](https://github.com/mcezzare/mcezzare-react-course-2024-08)

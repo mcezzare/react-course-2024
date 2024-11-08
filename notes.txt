@@ -522,3 +522,8 @@ https://reactnative.dev/docs/appstate
 
 End session 13 
 
+Start Session 14
+Fim Teacher : https://github.com/DevTalles-corp/RN-Pokedex/tree/fin-seccion-14
+
+
+
