@@ -526,4 +526,86 @@ Start Session 14
 Fim Teacher : https://github.com/DevTalles-corp/RN-Pokedex/tree/fin-seccion-14
 
 
+npx @react-native-community/cli@15.0.0 init pokedex --version 0.76
+
+npm install @react-navigation/native
+npm install react-native-screens react-native-safe-area-context
+npx pod-install
+
+npm install @react-navigation/stack
+npm install react-native-gesture-handler
+npm install @react-native-masked-view/masked-view
+npx pod-install
+
+
+M-CATHO-015227:08-pokedex mariochiodi$ cd src/
+M-CATHO-015227:src mariochiodi$ mkdir domain infrastructure
+M-CATHO-015227:src mariochiodi$ mkdir actions
+M-CATHO-015227:src mariochiodi$ mkdir config
+M-CATHO-015227:src mariochiodi$ mkdir config/theme
+M-CATHO-015227:src mariochiodi$ mkdir config/api
+M-CATHO-015227:src mariochiodi$ mkdir config/helpers
+M-CATHO-015227:src mariochiodi$ mkdir -p actions/pokemons
+M-CATHO-015227:src mariochiodi$ mkdir -p domain/entities
+M-CATHO-015227:src mariochiodi$ mkdir infrastructure/mappers
+M-CATHO-015227:src mariochiodi$ mkdir infrastructure/interfaces
+M-CATHO-015227:src mariochiodi$ mkdir presentation/components
+M-CATHO-015227:src mariochiodi$ mkdir presentation/components/pokemon
+M-CATHO-015227:src mariochiodi$ mkdir presentation/context
+M-CATHO-015227:src mariochiodi$ mkdir presentation/hooks
+
+comita a estrutura
+find src -type d -exec touch {}/.gitkeep \;
+
+end 222
+
+
+https://reactnativepaper.com/
+
+https://callstack.github.io/react-native-paper/docs/guides/getting-started/
+>>install only package no icons 
+
+https://callstack.github.io/react-native-paper/docs/guides/theming-with-react-navigation
+
+fazendo o request e BLOCK NETSCOPE
+
+npm install -g react-native-rename
+npx react-native-rename "pokedexApp"
+npx react-native-rename "pokedexApp" -b com.pokedexApp
+Abre o projeto ios no xcode 
+
+Acessar os Esquemas: No Xcode, vá para o menu Product > Scheme > Manage Schemes....
+Renomear o Esquema: Na lista de esquemas, você verá o antigo esquema pokedex. Clique no nome para editá-lo e renomeie-o para pokedexApp.
+Marcar o Esquema como Compartilhado: Marque a opção Shared para o esquema pokedexApp para garantir que ele será detectado por outros desenvolvedores e ferramentas externas.
+Limpar o Projeto e Recompilar: Depois de ajustar o esquema, é recomendável limpar o cache do projeto e recompilar:
+No Xcode, vá em Product > Clean Build Folder (ou pressione Shift + Command + K).
+Agora, feche e abra o Xcode novamente e tente rodar o projeto com o novo esquema:
+npx react-native run-ios --scheme=pokedexApp
+
+
+processo perdido 
+
+
+ps aux | grep react-native
+
+mariochiodi      95455   0.3  0.2 423239696  39968 s004  S+    1:12AM   0:06.42 node /Users/mariochiodi/Documents/courses/udemy/react/trilha/React-Native/08-pokedex/node_modules/react-native/cli.js start --port 8081
+mariochiodi      99712   0.0  0.0 410732240   1488 s002  S+    1:21AM   0:00.01 grep react-native
+
+M-CATHO-015227:08-pokedex mariochiodi$ kill -9 95455
+
+npm run clean :) 
+
+end day 16
+--------------------------------------------------------------------------------------
+
+Day 17 
+
+
+
+
+
+
+
+
+
 
