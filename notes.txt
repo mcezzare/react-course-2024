@@ -539,20 +539,23 @@ npx pod-install
 
 
 M-CATHO-015227:08-pokedex mariochiodi$ cd src/
-M-CATHO-015227:src mariochiodi$ mkdir domain infrastructure
-M-CATHO-015227:src mariochiodi$ mkdir actions
-M-CATHO-015227:src mariochiodi$ mkdir config
-M-CATHO-015227:src mariochiodi$ mkdir config/theme
-M-CATHO-015227:src mariochiodi$ mkdir config/api
-M-CATHO-015227:src mariochiodi$ mkdir config/helpers
-M-CATHO-015227:src mariochiodi$ mkdir -p actions/pokemons
-M-CATHO-015227:src mariochiodi$ mkdir -p domain/entities
-M-CATHO-015227:src mariochiodi$ mkdir infrastructure/mappers
-M-CATHO-015227:src mariochiodi$ mkdir infrastructure/interfaces
-M-CATHO-015227:src mariochiodi$ mkdir presentation/components
-M-CATHO-015227:src mariochiodi$ mkdir presentation/components/pokemon
-M-CATHO-015227:src mariochiodi$ mkdir presentation/context
-M-CATHO-015227:src mariochiodi$ mkdir presentation/hooks
+mkdir domain infrastructure
+mkdir actions
+mkdir config
+mkdir config/theme
+mkdir config/api
+mkdir config/helpers
+mkdir -p actions/pokemons
+mkdir -p domain/entities
+mkdir infrastructure/mappers
+mkdir infrastructure/interfaces
+mkdir -p presentation/components
+mkdir presentation/screens
+mkdir presentation/screens/home
+mkdir presentation/components/pokemon
+mkdir presentation/context
+mkdir presentation/hooks
+mkdir presentation/navigator
 
 comita a estrutura
 find src -type d -exec touch {}/.gitkeep \;
@@ -599,6 +602,75 @@ end day 16
 --------------------------------------------------------------------------------------
 
 Day 17 
+
+class 225
+https://tanstack.com/
+npm i @tanstack/react-query
+
+force sleep : 
+
+export const sleep = async () => {
+  return new Promise( resolve => setTimeout( resolve, 2000 ) );
+};
+
+/// dentro do metodo que deve esperar
+await sleep();
+
+add "@tanstack/react-query": "^5.59.20",
+interfaces and mappers, 
+add background
+
+NAO FUNCIONA COMECANDO DE NOVO .
+
+----------------------------------------------------------------------------
+Day 18 
+
+Começando sessão 14 de novo 
+npx @react-native-community/cli@15.0.0 init pokedexApp --version 0.76
+
+
+npm install @react-navigation/native
+npm install react-native-screens react-native-safe-area-context
+npx pod-install
+
+npm install @react-navigation/stack
+npm install react-native-gesture-handler
+npm install @react-native-masked-view/masked-view
+npx pod-install
+
+https://callstack.github.io/react-native-paper/docs/guides/getting-started/
+npm install react-native-paper
+
+Configure ThemeProvider
+Implementa as fontes que deu erro da primeira vez em ThemeContextProvider
+
+cria telas, navigator 
+
+
+https://callstack.github.io/react-native-paper/docs/guides/theming-with-react-navigation
+
+npm i @tanstack/react-query
+https://tanstack.com/query/latest/docs/framework/react/quick-start
+configure settings requests
+
+configure cards, home , icons 
+
+
+https://www.npmjs.com/package/react-native-image-colors
+
+npm i react-native-image-colors@1.5.2 
+
+npx pod-install 
+
+list and details screens ,, uff :) 
+
+stoped on class 237 .. todo tasks from final class from session
+----------------------------------------------------------------------------
+
+Day 19 
+
+
+
 
 
 
