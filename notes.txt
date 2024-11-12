@@ -669,7 +669,9 @@ stoped on class 237 .. todo tasks from final class from session
 
 Day 19 
 
-
+finalizado session 14 e adicionadas funcionalidades extras  :
+- toca o som do pokemon .. api seo tem ogg , só funciona no android.
+- adicionada a descrição do pokemon com outro request nos detalhes.
 
 
 
