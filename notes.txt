@@ -692,6 +692,11 @@ $ watchman shutdown-server
 
 https://ethercreative.github.io/react-native-shadow-generator/
 
+----------------------------------------------------------------------------
+Day 21
+End session 15 
+
+Start Session 16 
 
 
 
