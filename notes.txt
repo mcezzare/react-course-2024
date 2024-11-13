@@ -674,7 +674,23 @@ finalizado session 14 e adicionadas funcionalidades extras  :
 - adicionada a descrição do pokemon com outro request nos detalhes.
 
 
+convertendo os .svg pra png 
 
+for x in  `ls`  ; do echo $x; magick -background none  $x $x.png ; done
+
+----------------------------------------------------------------------------
+
+Day 20 
+start session 15 
+Final : https://github.com/DevTalles-corp/RN-Pokedex/tree/fin-seccion-15
+
+watchman problems :
+
+$ watchman watch-del-all
+$ watchman shutdown-server
+
+
+https://ethercreative.github.io/react-native-shadow-generator/
 
 
 
