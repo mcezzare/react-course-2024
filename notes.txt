@@ -724,6 +724,27 @@ mkdir src/presentation/screens/loading
 find src -type d -exec touch {}/.gitkeep \;
 commit ;) 
 
+npm install --save react-native-vector-icons
+npx pod-install
+fix android and ios fonts 
+npm i --save-dev @types/react-native-vector-icons
+
+
+npm install @react-navigation/native
+npm install react-native-screens react-native-safe-area-context
+npx pod-install 
+
+https://reactnavigation.org/docs/stack-navigator/
+npm install @react-navigation/stack
+npm install @react-native-masked-view/masked-view
+npx pod-install ios
+fix android android/app/src/main/java/com/mapsapp/MainActivity.kt
+
+
+
+
+
+
 
 
 
