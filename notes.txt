@@ -698,6 +698,36 @@ End session 15
 
 Start Session 16 
 
+npx @react-native-community/cli@15.0.0 init mapsApp --version 0.76
+https://github.com/oblador/react-native-vector-icons
+
+
+mkdir src
+mkdir src/actions
+mkdir src/assets
+mkdir src/config
+mkdir src/infrastructure
+mkdir src/presentation
+mkdir src/presentation/navigation
+mkdir src/presentation/components
+mkdir src/presentation/components/maps
+mkdir src/presentation/components/ui
+mkdir src/presentation/providers
+mkdir src/presentation/stores
+mkdir src/presentation/stores/location
+mkdir src/presentation/stores/permissions
+mkdir src/presentation/screens
+mkdir src/presentation/screens/maps
+mkdir src/presentation/screens/permissions
+mkdir src/presentation/screens/loading
+
+find src -type d -exec touch {}/.gitkeep \;
+commit ;) 
+
+
+
+
+
 
 
 
