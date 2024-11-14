@@ -697,6 +697,7 @@ Day 21
 End session 15 
 
 Start Session 16 
+Final Teacher : https://github.com/DevTalles-corp/RN-MapsApp/tree/fin-seccion-16
 
 npx @react-native-community/cli@15.0.0 init mapsApp --version 0.76
 https://github.com/oblador/react-native-vector-icons
@@ -741,6 +742,28 @@ npx pod-install ios
 fix android android/app/src/main/java/com/mapsapp/MainActivity.kt
 
 
+https://www.npmjs.com/package/react-native-permissions
+npm i react-native-permissions
+
+add permissions android/app/src/main/AndroidManifest.xml
+
+add permissions ios
+update Podfile
+add permissions ios/mapsApp/Info.plist
+npx pod-install ios
+
+create files actions interfaces, etc.
+
+npm i zustand
+
+location and ask permission and refresh state working
+end session 16 
+
+----------------------------------------------------------------------------
+Day 22
+
+start session 17 
+Final teacher : https://github.com/DevTalles-corp/RN-MapsApp/tree/fin-seccion-17
 
 
 
