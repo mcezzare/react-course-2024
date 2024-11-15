@@ -763,10 +763,39 @@ end session 16
 Day 22
 
 start session 17 
-Final teacher : https://github.com/DevTalles-corp/RN-MapsApp/tree/fin-seccion-17
+
+Final teacher : https://github.com/DevTalles-corp/RN-MapsApp/tree/
+
+-23.0052600435784, -46.52568897470134
+
+End 267
+Configure Location emulators and routes 
+
+https://github.com/react-native-maps/react-native-maps/blob/master/docs/installation.md
+
+https://console.cloud.google.com/projectselector2/google/maps-apis/credentials?utm_source=Docs_CreateAPIKey&utm_content=Docs_maps-android-backend&_gl=1*p5tllg*_ga*MTU4NzAzNzExNC4xNzMxNjIwODUw*_ga_NRWSTWS78N*MTczMTYyMDg1MC4xLjEuMTczMTYyMDg1MS4wLjAuMA..&pli=1&inv=1&invt=AbhfvQ
+
+Create Project
+
+Ativa bibliotecas no gcp e 
+https://console.cloud.google.com/apis/library?inv=1&invt=AbhfvQ&project=reactnative-mapsapp-441721
+
+criar credenciais e chaves 
+
+limita a chave a apenas api Maps Sdk (Android | iOS)
+
+npm install react-native-maps
+
+https://github.com/michalchudziak/react-native-geolocation
+
+npm install @react-native-community/geolocation --save
 
 
+lendo coordenadas.
+stoped class 273
 
+----------------------------------------------------------------------------
+Day 23
 
 
 
