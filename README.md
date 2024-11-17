@@ -19,3 +19,7 @@ App07 -> [ComponentsApp](https://github.com/mcezzare/mcezzare-react-course-2024-
 App08 -> [Pokedex](https://github.com/mcezzare/mcezzare-react-course-2024-08)
 
 App09 -> [MapsAPP](https://github.com/mcezzare/mcezzare-react-course-2024-09) 
+
+App10 -> [Backend Teslo Shop](https://github.com/Klerith/tesloshop-backend)
+
+App11 -> [ProductsApp](https://github.com/mcezzare/mcezzare-react-course-2024-11)

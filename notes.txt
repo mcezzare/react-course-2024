@@ -798,10 +798,30 @@ stoped class 273
 Day 23
 
 work on maps 
-
 finish session 17 
 
+Start Session 18 
+Sugestão do professor : https://fernando-herrera.com/course/nest-backend-escalable/
 
+Clone the backend : https://github.com/Klerith/tesloshop-backend
+docker-compose up 
+
+Check swagger: http://localhost:3000/api
+
+
+fix error
+colima start --dns 8.8.8.8 --dns 8.8.4.4
+
+Api and dabase ready 
+
+End Session 18 backend configuration
+
+------------------------------------
+Start session 19
+
+https://reactnavigation.org/docs/stack-navigator/
+
+npx @react-native-community/cli@15.0.0 init productsApp --version 0.76
 
 
 
