@@ -823,5 +823,59 @@ https://reactnavigation.org/docs/stack-navigator/
 
 npx @react-native-community/cli@15.0.0 init productsApp --version 0.76
 
+users : 
+
+{    "email": "test1@google.com",    "password": "Abc123" }
+{    "email": "test2@google.com",    "password": "Abc123" }
 
 
+creating folders 
+/Users/mariochiodi/Documents/courses/udemy/react/trilha/React-Native/11-productsApp
+
+mkdir src
+touch src/ProductsApp.tsx
+mkdir src/actions
+mkdir src/assets
+mkdir src/config
+mkdir src/domain
+mkdir src/infrastructure
+mkdir src/presentation
+mkdir src/presentation/components
+mkdir src/presentation/hooks
+mkdir src/presentation/layouts
+mkdir src/presentation/navigation
+mkdir src/presentation/screens
+mkdir src/presentation/screens/auth
+touch src/presentation/screens/auth/LoginScreen.tsx
+touch src/presentation/screens/auth/RegisterScreen.tsx
+mkdir src/presentation/screens/home/
+touch src/presentation/screens/home/HomeScreen.tsx
+
+mkdir src/presentation/screens/loading
+touch src/presentation/screens/loading/LoadingScreen.tsx
+
+mkdir src/presentation/screens/product
+touch src/presentation/screens/product/ProductScreen.tsx
+
+mkdir src/presentation/screens/store
+
+
+
+
+
+----------------------------------------------------------------------------
+Day 24
+
+npm install @react-navigation/native
+... 
+
+
+https://akveo.github.io/react-native-ui-kitten/
+
+npm i @ui-kitten/components @eva-design/eva react-native-svg
+
+
+https://akveo.github.io/react-native-ui-kitten/docs/components/components-overview
+
+
+npm i @ui-kitten/eva-icons react-native-svg
