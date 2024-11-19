@@ -919,6 +919,12 @@ Note that every time @react-native-async-storage/async-storage gets updated, you
 ios fixed  \o/
 end class 301 
 
+----------------------------------------------------------------------------
+Day 26
+
+Finish task of register user.
+
+Start session 20
 
 
 
