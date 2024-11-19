@@ -801,6 +801,9 @@ work on maps
 finish session 17 
 
 Start Session 18 
+teacher final : https://github.com/DevTalles-corp/RN-teslo-app/tree/fin-seccion-19
+
+
 Sugestão do professor : https://fernando-herrera.com/course/nest-backend-escalable/
 
 Clone the backend : https://github.com/Klerith/tesloshop-backend
@@ -879,3 +882,43 @@ https://akveo.github.io/react-native-ui-kitten/docs/components/components-overvi
 
 
 npm i @ui-kitten/eva-icons react-native-svg
+
+
+----------------------------------------------------------------------------
+Day 25
+
+continue session 19
+
+https://github.com/goatandsheep/react-native-dotenv
+npm install -D react-native-dotenv
+configure types, babel 
+
+
+npm install axios
+
+npm i zustand
+
+diferents Envs for emulators
+ios can use localhost for docker images 
+android must use real ip address from interface 192.168.*
+
+to forms 
+store values from fields using onchangeText to a useState value, then use them to post. 
+
+async storage 
+Android work direct 
+ios : problems  
+https://react-native-async-storage.github.io/async-storage/docs/help/troubleshooting#ios-cocoapods-issues
+
+
+```
+Note that every time @react-native-async-storage/async-storage gets updated, you must also run pod update RNCAsyncStorage otherwise you'll still be using the previous version.
+
+````
+
+ios fixed  \o/
+end class 301 
+
+
+
+
