@@ -926,5 +926,29 @@ Finish task of register user.
 
 Start session 20
 
+prepare interfaces, mapper, actions , and entities from products 
+
+https://tanstack.com/query/latest/docs/framework/react/installation
+npm i @tanstack/react-query
+
+
+building forms 
+
+https://formik.org/
+
+npm install formik --save
+
+Finish Session 20
+
+----------------------------------------------------------------------------
+Day 27
+
+
+
+
+
+
+
+
 
 
