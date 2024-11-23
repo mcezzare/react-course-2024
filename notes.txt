@@ -940,15 +940,186 @@ npm install formik --save
 
 Finish Session 20
 
+https://github.com/DevTalles-corp/RN-teslo-app/tree/fin-seccion-20
+
 ----------------------------------------------------------------------------
 Day 27
 
+https://www.npmjs.com/package/react-native-image-picker
 
 
 
+"xcodebuild -workspace productsApp.xcworkspace -configuration Debug -scheme productsApp -destination id=3117F408-9EED-42BC-8465-F238650E43F7"
+
+iphone8 = d5fa1658a5170c9eee4880325fca75f692dad50d
 
 
 
+final techer : https://github.com/DevTalles-corp/RN-teslo-app/blob/fin-seccion-21/src/actions/products/update-create-product.ts
+
+End session 21
+----------------------------------------------------------------------------
+Day 28 
+
+Finalizando o app e preparando pra loja 
+
+Cria os icones e imagens 
+https://icon.kitchen/i/H4sIAAAAAAAAA6tWKkvMKU0tVrKqVkpJLMoOyUjNTVWySkvMKU6t1VHKzU8pzQHJRisl5qUU5WemKOkoZeYXA8ny1CSl2FoApT8%2BHkAAAAA%3D
+
+
+Exemplo com o projeto 07-componentsApp
+
+Arquivo app.json
+Essa linha pode mudar 
+"displayName": "componentApp"
+->
+"displayName": "RN Components"
+
+Android : 
+07-ComponentApp/android/app/src/main/res/values/strings.xml
+<resources>
+    <string name="app_name">componentApp</string>
+</resources>
+
+->
+<resources>
+    <string name="app_name">RN Components</string>
+</resources>
+
+
+android/app/src/main/res troca com o que veio do icon.kitchen pasta android/res
+
+
+android/app/src/main/AndroidManifest.xml
+troca       android:roundIcon="@mipmap/ic_launcher_round"
+por       android:roundIcon="@mipmap/ic_launcher"
+
+
+IOS: 
+open ios/componentApp.xcworkspace/
+
+General > Identity > 
+Display Name : RN Components
+
+ios/componentApp/Info.plist
+
+<key>CFBundleDisplayName</key>
+<string>componentApp</string>
+
+-> 
+
+<key>CFBundleDisplayName</key>
+<string>RN Components</string>
+
+
+Android
+android/app/build.gradle
+get namespace namespace "com.mcezzare.rncomponentsapp"
+
+
+change package path to com.mcezzare.rncomponentsapp
+android/app/src/main/java/com/mcezzare/rncomponentsapp/MainActivity.kt
+android/app/src/main/java/com/mcezzare/rncomponentsapp/MainApplication.kt
+create folder com/mcezzare
+copy old coponentsApp to rncomponentsapp
+
+
+IOS
+open xcworkspace and on signing capabilities change Bundle Identifier to :
+com.mcezzare.rncomponentsapp
+
+-- end class 344 
+
+https://developer.android.com/develop/ui/views/launch/splash-screen
+
+-- end class 345
+
+-- end class 346  - ios splash screen
+
+https://reactnative.dev/docs/signed-apk-android
+
+Sign android App
+M-CATHO-015227:07-ComponentApp mariochiodi$ /usr/libexec/java_home 
+/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
+
+sudo keytool -genkey -v -keystore my-upload-key.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000
+
+
+password=componentApp2024
+
+android/gradle.properties
+MYAPP_UPLOAD_STORE_FILE=my-upload-key.keystore
+MYAPP_UPLOAD_KEY_ALIAS=my-key-alias
+MYAPP_UPLOAD_STORE_PASSWORD=componentApp2024
+MYAPP_UPLOAD_KEY_PASSWORD=componentApp2024
+
+android/app/build.gradle
+signingConfigs{
+          debug {...}
+          release {
+            if (project.hasProperty('MYAPP_UPLOAD_STORE_FILE')) {
+                storeFile file(MYAPP_UPLOAD_STORE_FILE)
+                storePassword MYAPP_UPLOAD_STORE_PASSWORD
+                keyAlias MYAPP_UPLOAD_KEY_ALIAS
+                keyPassword MYAPP_UPLOAD_KEY_PASSWORD
+            }
+        }
+}
+
+buildTypes {
+  debug{...}
+   release {
+            signingConfig signingConfigs.release
+            ...
+  }
+}
+
+npx react-native build-android --mode=release
+
+
+npx react-native build-android --mode=release --warning-mode all
+
+
+cd android
+./gradlew clean
+cd ..
+npx react-native build-android --mode=release
+
+build worked : android/app/build/outputs/bundle/release/app-release.aab
+
+run prod on aab on emulator 
+
+npm run android -- --mode="release"
+
+
+Upload pra Google play , configura testadores, configura detalhes na loja etc .. 
+
+upload Apple by xcode 
+
+
+teacher end : 
+https://github.com/DevTalles-corp/RN-Components/tree/fin-seccion-22
+
+
+
+WATCH 
+
+React Native Blog - Últimos cambios y novedades
+https://reactnative.dev/blog
+
+
+Cuanta oficial de React - Twitter
+https://twitter.com/reactjs
+
+
+App Extensions
+https://reactnative.dev/docs/app-extensions
+
+Guía no oficial de React Native - Más ejercicios
+https://www.tutorialspoint.com/react_native/index.htm
+
+Libro no oficial de React Native - Igual muy útil
+https://books.goalkicker.com/ReactNativeBook/
 
 
 
